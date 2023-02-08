@@ -1,7 +1,6 @@
 {
   "name": "guitarraslueyza3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build-sass": "node-sass --include-path ssss ./scss/style.scss ./css/style.css -w"
@@ -10,5 +9,14 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^8.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totalchaosXX/PreEntrega3SalinasLueyza.git"
+  },
+  "bugs": {
+    "url": "https://github.com/totalchaosXX/PreEntrega3SalinasLueyza/issues"
+  },
+  "homepage": "https://github.com/totalchaosXX/PreEntrega3SalinasLueyza#readme",
+  "description": ""
 }
