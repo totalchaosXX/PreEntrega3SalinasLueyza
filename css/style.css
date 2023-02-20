@@ -56,6 +56,7 @@ footer {
 .grilla {
   margin-top: 40px;
   box-shadow: 2px 3px 3px 0 rgba(50, 50, 50, 0.29);
+  border: 1px solid #c1c1c1;
   border-radius: 5px;
   padding: 30px;
   background-color: #FFF; }
@@ -72,12 +73,41 @@ footer {
 .d-img {
   width: 100px; }
 
+textarea {
+  resize: none; }
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1); }
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333; }
+
+.sidebar .nav-link.active {
+  color: #007bff; }
+
 @media (max-width: 575.98px) {
   p {
     text-align: justify; }
   .box-guitarras {
     padding-top: 60px; }
   .carousel {
+    display: none; }
+  .box-img {
     display: none; }
   .hidden {
     display: block; }
